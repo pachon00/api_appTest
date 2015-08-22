@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-ruby "2.2.2"
+ruby "2.2.1"
 
 gem "versionist"
 gem "active_model_serializers", github: "rails-api/active_model_serializers", branch: "0-8-stable"
@@ -28,6 +28,7 @@ group :development, :test do
   gem "pry-rails"
   gem "rspec-rails", "~> 3.2.2"
   gem "ffaker"
+  gem "capybara"
 end
 
 # Test gems
