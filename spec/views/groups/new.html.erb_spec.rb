@@ -4,7 +4,8 @@ RSpec.describe "groups/new", type: :view do
   before(:each) do
     assign(:group, Group.new(
       :name => "MyString",
-      :day => "MyString"
+      :day => "MyString",
+      :time => "MyString"
     ))
   end
 
